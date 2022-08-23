@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 50px;
+}
+
+.logo_block {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo_block h1 {
+    color: #0088A2;
+    font-size: 50px;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #808080;
+}
+
+.menu li {
+    width: 20%;
+    text-align: center;
+    list-style: none;
+    padding: 10px 0;
+    transition: 0.5s;
+}
+
+.menu li:hover {
+    background: #0088A2;
+}
+
+.menu_item {
+    font-size: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+.question_block {
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question_img {
+    flex: 0 1 30%;
+    position: relative;
+    transition: 0.1s;
+}
+
+.question_img:hover {
+    flex-basis: 33%;
+}
+
+.question_img img {
+    width: 100%;
+}
+
+.question_img p {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    text-align: center;
+}
+
+.part2__title {
+    display: flex;
+    justify-content: center;
+    margin: 61px;
+    font-size: 50px;
+    color: #0088A2;
+}
+
+.video_back {
+    width: 100%;
+    margin-bottom: 50px';
+
+}
+
+.video {
+    position: relative;
+}
+
+.video .play {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.section_quest {
+    margin: 100px 0;
+}
+
+.block_imgs {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.block_imgs img {
+    position: absolute;
+    top: 0;
+}
+
+.block_imgs img:nth-child(1) {
+    left: 0%;
+}
+
+.block_imgs img:nth-child(2) {
+    left: 18%;
+}
+
+.block_imgs img:nth-child(3) {
+    left: 36%;
+}
+
+.block_imgs img:nth-child(4) {
+    left: 54%;
+}
+
+.block_imgs img:nth-child(5) {
+    left: 72%;
+}
+
+.block_imgs img:nth-child(even) {
+    top: 35px;
+}
+
+.about_project {
+    display: flex;
+    justify-content: center;
+    margin-top: 800px;
+    font-size: 50px;
+    color: #0088A2;
+    /* border-top: 15px solid gray; */
+}
+
+.text_project {
+    display: flex;
+    font-size: 45px;
+    color: #707070;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+    border-bottom: 15px solid #E5E5E5;
+    padding-bottom: 100px;
+}
+
+.download {
+    display: flex;
+    font-size: 50px;
+    color: #0088A2;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.links_img {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 15px solid #FFFFFF;
+}
+
+.footer {
+    background-color: #0088A2;
+    border-top: 25px solid #0088A2;
+}
+
+.SOME {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.links_img2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 1px 270px;
+    margin-bottom: 50px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+    color: #FDFDFD;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.info {
+    display: flex;
+    font-size: 35px;
+    color: #FDFDFD;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 50px;
+    text-align: center;
+    width: 50px auto;
+    /* margin: 0 auto; */
+}
+
+/* flex: 0 1 30% */
+/* flex-grow - растянуть*/
+/* flex-shrink - разрешение уменьшения  */
+/* flex-basis - стоит на месте */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-without-burger{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+} */
+/* #toggle{ */
+/* opacity прозрачность */
+/* display: flex;
+    opacity: 0;
+} */
+/* стилизация кнопки */
+/* .btn{
+    display: none;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.btn span,
+.btn span::before,
+.btn span::after {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(186, 113, 125);
+    transition: 0.5s ease 0s;
+}
+.btn span::before{
+    content: '';
+    top: -8px;
+
+}
+.btn span::after {
+    content: '';
+    top: 8px;
+}
+.menu{
+    display: block;
+    position: fixed;
+     visibility: hidden; 
+    top: 0;
+     left: -100%; 
+    width: 300px;
+    height: 100%;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: pink;
+    box-shadow: 1px 0 5px rgba(0,0, 0, 0,3);
+    transition: 0.8s ease 0s;
+}
+
+.menu_item{
+    display: block;
+    padding: 15px 20px;
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 600px;
+    text-decoration: none;
+    position: relative;
+    transition: 0.5s ease 0s;
+}
+.menu_item::after{
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: aquamarine;
+    bottom: 0;
+    left: 5%;
+
+}
+.menu_item:hover{
+    background-color: aliceblue;
+}
+#toggle:checked ~ .btn span{
+    transform: rotate(45deg);
+    top: 0;
+}
+#toggle:checked ~ .btn span::before{
+    transform: rotate(-90deg);
+    top: 0;
+}
+#toggle:checked ~ .btn span::after{
+    transform: rotate(0deg);
+    top: 0;
+}
+#toggle:checked~.menu{
+    left: 0;
+    visibility: visible;
+} */
